@@ -20,7 +20,7 @@ namespace TamagotchiApp
 		{
 			var form = new SettingsForm(this);
 			form.Show();
-			//Hide(); // Close нельзя, иначе приложение закроется
+			Hide(); // Close нельзя, иначе приложение закроется
 		}
 
 		private void BtnOpen_Click(object sender, EventArgs e)
